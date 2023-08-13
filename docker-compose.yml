@@ -7,7 +7,7 @@ services:
       args:
         - DEV=true
     ports:
-      - "8080:8000" # host port:container port
+      - "8000:8000" # host port:container port
     volumes:
       - ./app:/app  #host path:container path
     command: >
